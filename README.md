@@ -2,13 +2,13 @@
 
 ## What it is
 
-FishHunt is a short VR minigame built for Google Cardboard in Unity. You look
+FishHunt is a short VR minigame built for Google Cardboard in Unity. You can look 
 through the headset at a single fish swimming back and forth in front of you.
 Once a second, the game automatically throws a spear toward wherever your
 gaze/crosshair is aimed; if it connects with the fish you score a point. Each
 round lasts 30 seconds, after which the game shows your score and restarts
 automatically (or immediately if you pull the Cardboard trigger). The only
-input the player has is aiming their head — everything else (throwing,
+input the player has is aiming their head and everything else (throwing,
 timing, scoring, respawning the fish) is handled by the game.
 
 Code: [`FishHuntGame.cs`](Assets/Scripts/FishHuntGame.cs) (round/HUD/scoring
